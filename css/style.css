@@ -103,6 +103,7 @@ Header
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     padding-top: 10px;
 }
+
 a.btn-banner {
     border: 1px solid #cdcdcd;
     padding: 12px 22px;
