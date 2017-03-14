@@ -469,7 +469,7 @@ cta
 **************************************/
 /** media queries**/
 @media (min-width: 480px) and (max-width: 1023px) {
-    .img-sec, .fig-caption {
+    .team-img, .caption {
     width: 100%;
     float: left;
 }
@@ -509,9 +509,9 @@ cta
     line-height: 20px;
     text-align: center;
 }
-.fig-caption h3 {
+.caption h3 {
     font-size: 19px;
-    font-family: 'Josefin Slab', serif;
+    font-family: serif;
 }
 .wd75
 {
@@ -550,11 +550,11 @@ p.cta-sub-title {
     padding: 3px 14px;
     margin-bottom: 3px;
 }
-.img-sec, .fig-caption {
+.team-img, .caption {
     width: 100%;
     float: left;
 }
-.fig-caption {
+.caption {
     padding: 56px 20px 20px;
 }
 .jumbotron h1.small {
