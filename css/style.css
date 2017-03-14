@@ -262,9 +262,9 @@ p.cta-sub-title
 {
 	background-color: #e43c5c;
 }
-.img-sec, .fig-caption
+.team-img, .caption
 {
-	width: 50%;
+	width: 280px;
 	float: left;
 }
 .team-info
@@ -274,16 +274,16 @@ p.cta-sub-title
 	width: 100%;
 	border-radius: 3px;
 }
-.fig-caption
+.caption
 {
 	padding: 56px 20px 0px;
 }
-.fig-caption h3
+.caption h3
 {
 	font-size: 20px;
 	font-family: 'Josefin Slab', serif;
 }
-.fig-caption p
+.caption p
 {
 	font-size: 14px;
 }
@@ -331,7 +331,7 @@ margin-top: 5px;
 	font-size: 24px;
 }
 
-/* Contact Form */ 
+/* BOOKING Form */ 
 .text-field-box {
     background: #fff;
     border: 1px solid #ddd;
@@ -473,7 +473,7 @@ cta
     width: 100%;
     float: left;
 }
-.fig-caption {
+.caption {
     padding: 56px 20px 20px;
 }
 }
@@ -486,7 +486,7 @@ cta
 {
     width: 100%;
 }
-.fig-caption {
+.caption {
     padding: 56px 20px 20px;
 }
 }
@@ -500,7 +500,7 @@ cta
     padding-right: 30px;
     padding-left: 30px;
 }
-.fig-caption {
+.caption {
     padding: 13px 20px 0px;
 }
 .team-social li {
