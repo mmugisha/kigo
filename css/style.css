@@ -534,10 +534,13 @@ p.cta-sub-title {
 {
     padding: 90px 0px 0px 20px !important;
 }
-}
 .footer_copyright a
 {
     text-decoration: none;
+}
+#footer p {
+    font-size: 100px;
+    color: rgba(255,255,255,0.8)
 }
 @media (min-width: 100px) and (max-width: 300px) {
 .filter {
