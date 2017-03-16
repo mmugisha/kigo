@@ -253,6 +253,20 @@ margin-top: 5px;
 {
 	font-size: 24px;
 }
+#about-menu {
+    padding: 0 0 60px 0;
+}
+#about-menu h3 {
+    font-size: 20px;
+}
+#about-menu .about-text {
+    margin: 35px;
+}
+#about-menu p {
+    line-height: 25px;
+    margin: 35px 0;
+    font-size: 18px;
+}
 
 #amenities-menu .menu-section hr {
     margin: 0 auto;
@@ -270,14 +284,17 @@ margin-top: 5px;
     font-size: 18px;
 }
 #amenities-menu {
-padding: 0 0 60px 0;
+    padding: 0 0 60px 0;
 
 }
 #amenities-menu .menu-section {
     margin: 0 20px ;
 }
-*/#amenities-menu h3 {
+#amenities-menu h3 {
     padding: 10px 0;
+}
+#amenities-menu .overlay p {
+    font-size: 18px;
 }
 /*directions sections*/
 #directions-menu .menu-section-title {
@@ -311,13 +328,21 @@ padding: 0 0 60px 0;
 #directions-menu .menu-section hr {
  margin: 0 auto;
 }
+#directions-menu .overlay p {
+    font-size: 18px;
+}
+/* map....*/
+#map {
+    height: 400px;
+    width: 100%;
+}
 /*tours section */
 #tours .overlay {
     padding: 120px 0 80px 0;
     background: rgba(0, 0, 0, 0.6);
 }
-#tours h2, p {
-    color: 
+#tours  p {
+    font-size: 18px; 
 }
 #tours hr {
     background: 
@@ -339,7 +364,7 @@ padding: 0 0 60px 0;
 }
 #tours .thumbnail .caption p {
     padding: 0 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /* BOOKING Form */ 
@@ -605,7 +630,7 @@ h3 {
     color: #333;
 }
 p{
-    font-size: 17px;
+    font-size: 18px;
 }
 hr {
     height: 2px;
