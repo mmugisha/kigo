@@ -41,10 +41,6 @@ Header
     color: #354242;
     background-color: #fff;
 }
-.navbar-nav {
-    padding-top: 5px;
-}
-
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
 	border-bottom: 2px solid #E74C3C;
@@ -177,7 +173,7 @@ a.btn-banner:hover, a.btn-banner:focus
 {
     cursor: pointer;
 }
-.cta-1, .cta2
+.cta-1, .booknow
 {
 	background-color: #e43c5c;
 	padding: 40px 0px;
@@ -245,7 +241,7 @@ p.cta-sub-title
 	width: 75%;
 	float: left;
 }
-.cta2 a
+.booknow a
 {
 margin-top: 5px;
 }
@@ -257,7 +253,7 @@ margin-top: 5px;
     padding: 120px 0;
 }
 #about-menu h3 {
-    font-size: 22px;
+    font-size: 24px;
 }
 #about-menu .about-text {
     margin-left: 10px;
@@ -387,85 +383,6 @@ margin-top: 5px;
     font-size: 18px;
 }
 
-/* BOOKING Form */ 
-.text-field-box {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 40px;
-    height: 60px;
-    line-height: 60px;
-    text-align: left;
-    color: #666;
-    font-size: 14px;
-    padding: 0 35px;
-    margin-bottom: 30px;
-    width: 100%;
-    outline: none;
-    appearance: none;
-    -webkit-appearance: none;
-}
-.form-sec textarea {
-    height: 220px;
-}
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
-}
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
-}
-
-.button-medium {
-    background: #e43c5c;
-    border-radius: 40px;
-    color: #ffffff;
-    cursor: pointer;
-    display: block;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    height: 48px;
-    line-height: 48px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-    width: 200px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 1px solid #e43c5c;
-    box-shadow: none;
-    outline: none;
-    -webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    -ms-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-}
 .footer {
     background-color: #040E18;
 }
@@ -512,9 +429,9 @@ margin-top: 5px;
 {
     background: url('../img/victoriaviewhome.jpg') no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 850px;
 }
-.cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
+#booknow .btn-default,.booknow .btn-default:hover,.booknow .btn-default:focus
 {
     padding: 10px 25px;
     background-color: #fff;
