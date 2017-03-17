@@ -254,18 +254,38 @@ margin-top: 5px;
 	font-size: 24px;
 }
 #about-menu {
-    padding: 0 0 60px 0;
+    padding: 120px 0;
 }
 #about-menu h3 {
-    font-size: 20px;
+    font-size: 22px;
 }
 #about-menu .about-text {
-    margin: 35px;
+    margin-left: 10px;
+    width: 500px;
 }
 #about-menu p {
     line-height: 25px;
     margin: 35px 0;
     font-size: 18px;
+}
+#about-menu .menu-img {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+}
+#about-menu img {
+    width: 1000px;
+    height: 530px;
+}
+#about-menu .about-img:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 #amenities-menu .menu-section hr {
