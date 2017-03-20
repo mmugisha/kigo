@@ -110,13 +110,13 @@ a.btn-banner {
     font-size: 11px;
     text-transform: uppercase;
     color: #ffffff;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: inline-block;
     margin-top: 95px;
 }
 a.btn-banner i
 {
-    padding-left: 10px;
+    padding-left: 30px;
 }
 a.btn-banner:hover, a.btn-banner:focus
 {
@@ -382,6 +382,9 @@ margin-top: 5px;
     padding: 0 10px;
     font-size: 18px;
 }
+#gallery p {
+    font-size: 18px;
+}
 
 .footer {
     background-color: #040E18;
@@ -431,15 +434,22 @@ margin-top: 5px;
     background-size: cover;
     min-height: 850px;
 }
-#booknow .btn-default,.booknow .btn-default:hover,.booknow .btn-default:focus
+#banner p {
+    padding: 60px 40px;
+    font-size: 25px;
+    font-style: italic;
+}
+#banner a {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+.booknow .btn-default,.booknow .btn-default:hover,.booknow .btn-default:focus
 {
     padding: 10px 25px;
     background-color: #fff;
     border: 0px;
 }
-/**************************************
-cta
-**************************************/
 /** media queries**/
 @media (min-width: 480px) and (max-width: 1023px) {
     .team-img, .caption {
@@ -579,3 +589,4 @@ hr {
     margin-bottom: 40px;
     border: 0;
 }
+#banner .text-primary 
