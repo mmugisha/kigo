@@ -104,8 +104,8 @@ Header
     font-size: 25px
 }
 #banner a {
-    padding: 20px 30px;
-    font-size: 25px;
+    padding: 5px 10px;
+    font-size: 22px;
 }
 #banner h1 {
     font-family: 'Dancing Script', cursive;
@@ -358,6 +358,9 @@ margin-top: 5px;
 #directions-menu .overlay p {
     font-size: 18px;
 }
+#directions-menu .map-text p{
+    font-size: 18px;
+}
 /* map....*/
 #map {
     height: 400px;
@@ -395,6 +398,38 @@ margin-top: 5px;
 }
 #gallery p {
     font-size: 18px;
+}
+#gallery {
+    padding: 0 0 120px 0;
+}
+#gallery .gallery-item {
+    margin: 15px 0;
+}
+#gallery .gallery-item .hover-bg{
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery .hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30% 0 0 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#gallery .hover-bg .hover-text h3{
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+#gallery .hover-bg:hover .hover-text{
+    opacity: 1;
 }
 
 .footer {
