@@ -41,10 +41,6 @@ Header
     color: #354242;
     background-color: #fff;
 }
-.navbar-nav {
-    padding-top: 5px;
-}
-
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
 	border-bottom: 2px solid #E74C3C;
@@ -103,6 +99,18 @@ Header
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     padding-top: 10px;
 }
+#banner p {
+    padding: 60px 20px;
+    font-size: 25px
+}
+#banner a {
+    padding: 5px 10px;
+    font-size: 22px;
+}
+#banner h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
 a.btn-banner {
     border: 1px solid #cdcdcd;
     padding: 12px 22px;
@@ -113,13 +121,13 @@ a.btn-banner {
     font-size: 11px;
     text-transform: uppercase;
     color: #ffffff;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: inline-block;
     margin-top: 95px;
 }
 a.btn-banner i
 {
-    padding-left: 10px;
+    padding-left: 30px;
 }
 a.btn-banner:hover, a.btn-banner:focus
 {
@@ -176,7 +184,7 @@ a.btn-banner:hover, a.btn-banner:focus
 {
     cursor: pointer;
 }
-.cta-1, .cta2
+.cta-1, .booknow
 {
 	background-color: #e43c5c;
 	padding: 40px 0px;
@@ -190,44 +198,6 @@ p.cta-sub-title
 	width: 100px;
 	height: 3px;
 	background-color: #e43c5c;
-}
-.service-box {
-    margin: 0 0 60px;
-    display: inline-block;
-}
-.service-box .service-icon {
-    width: 75px;
-    height: 75px;
-    border-radius: 50px;
-    overflow: hidden;
-    border: 1px solid #e9e9e9;
-    line-height: 75px;
-    text-align: center;
-    color: #e43c5c;
-    font-size: 30px;
-    margin-right: 23px;
-    float: left;
-    -webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    -ms-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-}
-.service-box .service-text {
-    width: 70%;
-    float: left;
-    margin-bottom: 20px;
-}
-.service-box .service-text h3 {
-    margin: 0 0 20px 0;
-    padding: 0 0 0 0;
-    font-size: 18px;
-    line-height: 24px;
-    color: #333333;
-    font-weight: 400;
-    -webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    -ms-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
 }
 .page-title
 {
@@ -261,46 +231,7 @@ p.cta-sub-title
 {
 	background-color: #e43c5c;
 }
-.img-sec, .fig-caption
-{
-	width: 50%;
-	float: left;
-}
-.team-info
-{
-	border: 1px solid rgba(204, 204, 204, 0.33);
-	float: left;
-	width: 100%;
-	border-radius: 3px;
-}
-.fig-caption
-{
-	padding: 56px 20px 0px;
-}
-.fig-caption h3
-{
-	font-size: 20px;
-	font-family: 'Josefin Slab', serif;
-}
-.fig-caption p
-{
-	font-size: 14px;
-}
-.team-social li
-{
-	display: inline-block;
-}
-.team-social li
-{
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-}
-.team-social li a
-{
-	color: #fff;
-}
+
 .blue-light{
 	background-color: #3498DB;
 }
@@ -321,7 +252,7 @@ p.cta-sub-title
 	width: 75%;
 	float: left;
 }
-.cta2 a
+.booknow a
 {
 margin-top: 5px;
 }
@@ -329,115 +260,203 @@ margin-top: 5px;
 {
 	font-size: 24px;
 }
-
-/* Contact Form */ 
-.text-field-box {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 40px;
-    height: 60px;
-    line-height: 60px;
-    text-align: left;
-    color: #666;
-    font-size: 14px;
-    padding: 0 35px;
-    margin-bottom: 30px;
-    width: 100%;
-    outline: none;
-    appearance: none;
-    -webkit-appearance: none;
+#about-menu {
+    padding: 120px 0;
 }
-.form-sec textarea {
-    height: 220px;
+#about-menu h3 {
+    font-size: 24px;
 }
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
+#about-menu .about-text {
+    margin-left: 10px;
+    width: 500px;
 }
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
-}
-
-.button-medium {
-    background: #e43c5c;
-    border-radius: 40px;
-    color: #ffffff;
-    cursor: pointer;
-    display: block;
-    font-family: "Montserrat", sans-serif;
+#about-menu p {
+    line-height: 25px;
+    margin: 35px 0;
     font-size: 18px;
-    font-weight: 400;
-    height: 48px;
-    line-height: 48px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-    width: 200px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 1px solid #e43c5c;
-    box-shadow: none;
-    outline: none;
-    -webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    -ms-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
 }
+#about-menu .menu-img {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+}
+#about-menu img {
+    width: 1000px;
+    height: 400px;
+}
+#about-menu .about-img:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#amenities-menu .menu-section hr {
+    margin: 0 auto;
+}
+#amenities-menu .menu-section-title {
+    font-size: 26px;
+    display: block;
+    font-weight: 500;
+    color: #444;
+    margin: 20px 0;
+    text-align: center;
+}
+#amenities-menu .menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+#amenities-menu {
+    padding: 0 0 60px 0;
+
+}
+#amenities-menu .menu-section {
+    margin: 0 20px ;
+}
+#amenities-menu h3 {
+    padding: 10px 0;
+}
+#amenities-menu .overlay p {
+    font-size: 18px;
+}
+/*directions sections*/
+#directions-menu .menu-section-title {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 450;
+    display: block;
+    font-size: 26px;
+    color: #444;
+}
+#directions-menu .menu-section {
+    margin: 0 20px 80px;
+}
+#directions-menu h3 {
+    padding: 10px 0;
+}
+#directions-menu .menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.directions-menu {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#directions-menu .menu-section hr {
+ margin: 0 auto;
+}
+#directions-menu .overlay p {
+    font-size: 18px;
+}
+#directions-menu .map-text p{
+    font-size: 18px;
+}
+/* map....*/
+#map {
+    height: 400px;
+    width: 100%;
+}
+/*tours section */
+#tours .overlay {
+    padding: 120px 0 80px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#tours  p {
+    font-size: 18px; 
+}
+#tours hr {
+    background: 
+}
+#tours h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 5px 0;
+}
+#tours img {
+    width: 290px;
+}
+#tours .thumbnail .tours-img {
+    display: inline-block;
+    position: relative;
+}
+#tours .thumbnail .caption {
+    padding-top: 10px;
+}
+#tours .thumbnail .caption p {
+    padding: 0 10px;
+    font-size: 18px;
+}
+#gallery p {
+    font-size: 18px;
+}
+#gallery {
+    padding: 0 0 120px 0;
+}
+#gallery .gallery-item {
+    margin: 15px 0;
+}
+#gallery .gallery-item .hover-bg{
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery .hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30% 0 0 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#gallery .hover-bg .hover-text h3{
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+#gallery .hover-bg:hover .hover-text{
+    opacity: 1;
+}
+#booknow {
+    padding: 90px 0;
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8eb640+50,779936+100 */
+    background: rgb(142,182,64); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(250, 128,114) 50%, rgba(250, 128,114) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(250, 128,114) 50%, rgba(250, 128,114) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(250, 128,114) 50%, rgba(250, 128,114) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d1714', endColorstr='#fa8072', GradientType=0 ); /* IE6-9 */
+}
+#booknow h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
 .footer {
     background-color: #040E18;
 }
 .footer h3 {
-    color: #fff;
+    color: #fa8072;
     padding-bottom: 30px;
 }
-.footer_social ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
-.footer_social ul li {
-    margin: 2px;
-    display: inline-block;
-}
-.footer_social ul li a {
-    background: #2e3537 none repeat scroll 0 0;
-    border: 1px solid #2e3537;
-    box-shadow: 0 0 0 7px transparent;
-    color: #aaa;
-    display: block;
-    font-size: 14px;
-    height: 40px;
-    line-height: 21px;
-    padding: 9px 13px;
-    -webkit-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-    width: 40px;
+.footer p {
+    color:#fff;
 }
 .footer-bottom {
     background: #09121B;
@@ -455,24 +474,21 @@ margin-top: 5px;
 {
     background: url('../img/victoriaviewhome.jpg') no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 850px;
 }
-.cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
+.booknow .btn-default,.booknow .btn-default:hover,.booknow .btn-default:focus
 {
     padding: 10px 25px;
     background-color: #fff;
     border: 0px;
 }
-/**************************************
-cta
-**************************************/
 /** media queries**/
 @media (min-width: 480px) and (max-width: 1023px) {
-    .img-sec, .fig-caption {
+    .team-img, .caption {
     width: 100%;
     float: left;
 }
-.fig-caption {
+.caption {
     padding: 56px 20px 20px;
 }
 }
@@ -485,7 +501,7 @@ cta
 {
     width: 100%;
 }
-.fig-caption {
+.caption {
     padding: 56px 20px 20px;
 }
 }
@@ -499,26 +515,9 @@ cta
     padding-right: 30px;
     padding-left: 30px;
 }
-.fig-caption {
-    padding: 13px 20px 0px;
-}
-.team-social li {
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-}
-.fig-caption h3 {
-    font-size: 19px;
-    font-family: 'Josefin Slab', serif;
-}
 .wd75
 {
     width: 100%;
-}
-.service-box .service-text h3
-{
-    padding-top: 15px;
 }
 .jumbotron h1.small {
     font-size: 44px;
@@ -539,23 +538,19 @@ p.cta-sub-title {
 {
     padding: 90px 0px 0px 20px !important;
 }
-}
 .footer_copyright a
 {
     text-decoration: none;
+}
+#footer p {
+    font-size: 100px;
+    color: rgba(255,255,255,0.8)
 }
 @media (min-width: 100px) and (max-width: 300px) {
 .filter {
     padding: 3px 14px;
     margin-bottom: 3px;
 }
-.img-sec, .fig-caption {
-    width: 100%;
-    float: left;
-}
-.fig-caption {
-    padding: 56px 20px 20px;
-}
 .jumbotron h1.small {
     font-size: 44px;
 }
@@ -574,9 +569,6 @@ p.cta-sub-title {
 .jumbotron
 {
     padding: 90px 0px 0px 20px !important;
-}
-.service-box .service-text h3 {
-    padding-top: 15px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
     text-align: center;
@@ -595,3 +587,38 @@ p.cta-sub-title {
 /**************************************
 form element
 **************************************/
+body, html {
+    font-family:  "Raleway", sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #777;
+    font-weight: 300;
+    width: 100% !important;
+    height: 100% !important;
+}
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    font-size: 34px;
+    color: #333;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+p{
+    font-size: 18px;
+}
+hr {
+    height: 2px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #8eb640;
+    margin: 0;
+    margin-bottom: 40px;
+    border: 0;
+}
+#banner .text-primary 
