@@ -431,36 +431,32 @@ margin-top: 5px;
 #gallery .hover-bg:hover .hover-text{
     opacity: 1;
 }
+#booknow {
+    padding: 90px 0;
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8eb640+50,779936+100 */
+    background: rgb(142,182,64); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(250, 128,114) 50%, rgba(250, 128,114) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(250, 128,114) 50%, rgba(250, 128,114) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(250, 128,114) 50%, rgba(250, 128,114) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d1714', endColorstr='#fa8072', GradientType=0 ); /* IE6-9 */
+}
+#booknow h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px 0;
+}
 
 .footer {
     background-color: #040E18;
 }
 .footer h3 {
-    color: #fff;
+    color: #fa8072;
     padding-bottom: 30px;
 }
-.footer_social ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
-.footer_social ul li {
-    margin: 2px;
-    display: inline-block;
-}
-.footer_social ul li a {
-    background: #2e3537 none repeat scroll 0 0;
-    border: 1px solid #2e3537;
-    box-shadow: 0 0 0 7px transparent;
-    color: #aaa;
-    display: block;
-    font-size: 14px;
-    height: 40px;
-    line-height: 21px;
-    padding: 9px 13px;
-    -webkit-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-    width: 40px;
+.footer p {
+    color:#fff;
 }
 .footer-bottom {
     background: #09121B;
